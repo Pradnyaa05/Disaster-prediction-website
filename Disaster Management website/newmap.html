@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Location Map</title>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #map {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 150px;
+    }
+</style>
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoicHJhZG55YTA1IiwiYSI6ImNscWNlOGUzdTAxNWUycXJxY2t3ZW5obWgifQ.htevVv-oh_lvNsm7D8oUgg';
+
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11',
+    center: [73.8567,18.5204], 
+    zoom: 12
+  });
+  function updateLiveLocation() {
+    var newLongitude = 73.8567 + (Math.random() - 0.5) * 0.1; 
+    var newLatitude = 18.5204+ (Math.random() - 0.5) * 0.1;
+
+    map.setCenter([newLongitude, newLatitude]);
+  }
+  setInterval(updateLiveLocation, 5000);
+
+  new mapboxgl.Marker()
+  .setLngLat([73.8567,18.5204])
+  .addTo(map);
+</script>
+
+</body>
+</html>
