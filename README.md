@@ -3,6 +3,7 @@ The Disaster Prediction Website is a web application designed to provide users w
 Technologies Used:-
 
 Frontend:
+
 HTML: Structure of the web pages.
 
 CSS: Styling and layout of the website.
