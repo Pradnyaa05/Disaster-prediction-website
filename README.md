@@ -14,8 +14,7 @@ Weather API: For fetching current weather data and forecasts.
 
 To run this project locally, follow these steps:
 
-Clone the Repository: git clone https://github.com/yourusername/disaster-prediction-website.git
-
+Clone the Repository: git clone https://github.com/Pradnyaa05/Disaster-prediction-website
 Navigate to the Project Directory:cd disaster-prediction-website
 
 Set Up a Local Server: Ensure you have a local server environment like XAMPP, WAMP, or MAMP installed.
