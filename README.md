@@ -9,13 +9,18 @@ CSS: Styling and layout of the website.
 
 JavaScript: Interactivity, API integration, and dynamic content updates.
 
+
 Backend:
 PHP: Server-side scripting to handle API requests and manage data.
 
+
 APIs:
+
 Earthquake Data API: For retrieving real-time earthquake information.
 
 Weather API: For fetching current weather data and forecasts.
+
+
 
 To run this project locally, follow these steps:
 
