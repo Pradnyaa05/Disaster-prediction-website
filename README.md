@@ -1,4 +1,5 @@
 The Disaster Prediction Website is a web application designed to provide users with real-time information on natural disasters such as earthquakes, floods and current weather conditions. It uses a combination of HTML, CSS, JavaScript, and PHP to offer a seamless and interactive user experience. The site also leverages APIs to gather real-time data on earthquakes, user locations, and weather predictions.
+
 Technologies Used:-
 Frontend:
 HTML: Structure of the web pages.
