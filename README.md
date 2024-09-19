@@ -1,38 +1,57 @@
-The Disaster Prediction Website is a web application designed to provide users with real-time information on natural disasters such as earthquakes, floods and current weather conditions. It uses a combination of HTML, CSS, JavaScript, and PHP to offer a seamless and interactive user experience. The site also leverages APIs to gather real-time data on earthquakes, user locations, and weather predictions.
+# Disaster Prediction Website
 
-Technologies Used:-
+The **Disaster Prediction Website** is a web application designed to provide users with real-time information on natural disasters such as earthquakes and floods, along with current weather conditions. This application offers a seamless and interactive user experience by utilizing a combination of frontend and backend technologies, and integrating APIs to gather real-time data on natural disasters and weather predictions.
 
-Frontend:
+## Technologies Used
 
-HTML: Structure of the web pages.
+### Frontend:
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling and layout of the website.
+- **JavaScript**: Interactivity, API integration, and dynamic content updates.
 
-CSS: Styling and layout of the website.
+### Backend:
+- **PHP**: Server-side scripting to handle API requests and manage data.
 
-JavaScript: Interactivity, API integration, and dynamic content updates.
+### APIs:
+- **Earthquake Data API**: For retrieving real-time earthquake information.
+- **Weather API**: For fetching current weather data and forecasts.
 
+## Getting Started
 
-Backend:
-PHP: Server-side scripting to handle API requests and manage data.
+To run this project locally, follow the steps below:
 
+### Prerequisites
+- Ensure you have a local server environment like **XAMPP**, **WAMP**, or **MAMP** installed.
+- Obtain API keys for the Earthquake Data API and Weather API.
 
-APIs:
+### Installation Steps
 
-Earthquake Data API: For retrieving real-time earthquake information.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Pradnyaa05/Disaster-prediction-website
+   ```
 
-Weather API: For fetching current weather data and forecasts.
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd disaster-prediction-website
+   ```
 
+3. **Set Up a Local Server**:
+   - Install a local server environment like **XAMPP**, **WAMP**, or **MAMP** if you haven't already.
+   - Ensure the server is properly set up.
 
+4. **Place the Project Files in the Server Directory**:
+   - Move the project files to the relevant server directory:
+     - For **XAMPP**: Place the files in the `htdocs` folder.
+     - For **WAMP**: Place the files in the `www` directory.
+     - For **MAMP**: Place the files in the equivalent directory.
 
-To run this project locally, follow these steps:
+5. **Configure API Keys**:
+   - Obtain API keys for the Earthquake Data API and Weather API.
+   - Update the configuration files or PHP scripts with your API keys.
 
-Clone the Repository: git clone https://github.com/Pradnyaa05/Disaster-prediction-website
-Navigate to the Project Directory:cd disaster-prediction-website
+6. **Start the Local Server**:
+   - Start your local server from your chosen environment (XAMPP, WAMP, MAMP, etc.).
+   - Navigate to `http://localhost/disaster-prediction-website` in your web browser.
 
-Set Up a Local Server: Ensure you have a local server environment like XAMPP, WAMP, or MAMP installed.
-
-Place the Project Files in the Server Directory: Move the project files to the htdocs (XAMPP), www (WAMP), or the equivalent directory of your local server setup.
-
-Configure API Keys: Obtain API keys for the Earthquake Data API and Weather API.
-Update the configuration files or PHP scripts with your API keys.
-
-Start the Local Server: Start your local server and navigate to http://localhost/disaster-prediction-website in your web browser.
+---
